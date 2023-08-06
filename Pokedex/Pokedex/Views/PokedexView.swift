@@ -28,7 +28,7 @@ struct PokedexView: View {
                         PokemonCellView(pokemon: pokemon)}
                     }
                 }
-            .navigationTitle("Pokemon")
+            .navigationTitle("Pokedex - Gen 1")
             .padding(4)
             }
         }
