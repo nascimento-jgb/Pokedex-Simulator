@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct PokedexModelView: View {
-    
+struct PokedexView: View {
+    @ObservedObject var viewModel = PokemonViewModel()
     @State private var searchName = ""
     private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some View {
         NavigationView{
             ScrollView{
-                //Rounded seraching field
+
                 TextField("Insert here a pokemon name", text: $searchName)
                     .padding(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
                     .background(Color.gray.opacity(0.2))
@@ -24,8 +24,8 @@ struct PokedexModelView: View {
                     .padding(.bottom)
                 
                 LazyVGrid(columns: gridItems, spacing: 20) {
-                    ForEach(0..<151) { _ in
-                        PokemonCell()}
+                    ForEach(viewModel.pokemon) { pokemon in
+                        PokemonCellView(pokemon: pokemon)}
                     }
                 }
             .navigationTitle("Pokemon")
@@ -34,8 +34,8 @@ struct PokedexModelView: View {
         }
     }
 
-struct PokedexModelView_Previews: PreviewProvider {
+struct PokedexView_Previews: PreviewProvider {
     static var previews: some View {
-        PokedexModelView()
+        PokedexView()
     }
 }

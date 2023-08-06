@@ -10,9 +10,7 @@ import SwiftUI
 struct Pokedex: View {
     var body: some View {
         VStack{
-            PokemonCell()
-            
-            PokemonCell()
+            PokedexView()
         }
     }
 }

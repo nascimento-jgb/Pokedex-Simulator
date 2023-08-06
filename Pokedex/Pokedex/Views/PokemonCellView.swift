@@ -7,25 +7,22 @@
 
 import Foundation
 import SwiftUI
+import Kingfisher
 
-struct RoundedBackgroundView: View{
-    
-    var name: String
-    var pokedexNum: String
-    var type: String
-    var backgroudColor: Color
+struct PokemonCellView: View{
+    let pokemon: PokedexEntry
     
     var body: some View{
         ZStack{
             VStack(alignment: .leading){
-                Text(name + " " + pokedexNum)
+                Text(pokemon.name.capitalized)
                     .font(.headline).bold()
                     .foregroundColor(.white)
                     .padding(.top, 4)
                     .padding(.leading)
                 
                 HStack{
-                    Text(type)
+                    Text(pokemon.type)
                         .font(.subheadline).bold()
                         .foregroundColor(.white)
                         .padding(.horizontal, 16)
@@ -36,23 +33,23 @@ struct RoundedBackgroundView: View{
                         )
                         .frame(width:100, height: 24)
                     
-                    Image("bulba")
+                    KFImage(URL(string: pokemon.imageUrl))
                         .resizable()
                         .scaledToFit()
                         .frame(width: 68, height: 68)
                         .padding([.bottom, .trailing], 4)
                 }
             }
-            .background(backgroudColor)
+            .background(.green)
             .cornerRadius(12)
             .shadow(color: .green, radius: 6, x:0.0 , y: 0.0)
         }
     }
 }
 
-struct RoundedBackgroundView_Previews: PreviewProvider {
+struct PokemonCellView_Previews: PreviewProvider {
     static var previews: some View {
-        RoundedBackgroundView(name: "Bulbasaur", pokedexNum: "#001", type: "grass", backgroudColor: .green)
+        PokemonCellView(pokemon: MOCK_POKEMON[2])
             
     }
 }

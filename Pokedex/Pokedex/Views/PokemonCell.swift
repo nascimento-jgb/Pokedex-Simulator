@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct PokemonCell: View {
+    let pokemon: PokedexEntry
+    
     var body: some View {
         ZStack{
             HStack{
-                RoundedBackgroundView(name: "Bulbasaur", pokedexNum: "#001", type: "grass", backgroudColor: .green)
+                PokemonCellView(pokemon: MOCK_POKEMON[1])
             }
         }
     }
@@ -19,6 +21,6 @@ struct PokemonCell: View {
 
 struct PokemonCell_Previews: PreviewProvider {
     static var previews: some View {
-        PokemonCell()
+        PokemonCell(pokemon: MOCK_POKEMON[1])
     }
 }
