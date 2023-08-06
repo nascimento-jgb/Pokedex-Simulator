@@ -40,12 +40,12 @@ struct RoundedBackgroundView: View{
                         .resizable()
                         .scaledToFit()
                         .frame(width: 68, height: 68)
-                        .padding([.leading, .trailing], 4)
+                        .padding([.bottom, .trailing], 4)
                 }
             }
             .background(backgroudColor)
             .cornerRadius(12)
-            .shadow(color: .green, radius: 6)
+            .shadow(color: .green, radius: 6, x:0.0 , y: 0.0)
         }
     }
 }
