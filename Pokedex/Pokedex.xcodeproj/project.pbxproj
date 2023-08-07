@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B9366A1A2A7FE5730097ADBA /* PokemonStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9366A192A7FE5730097ADBA /* PokemonStatsView.swift */; };
+		B9366A1C2A80CD8D0097ADBA /* TypeMenuFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9366A1B2A80CD8D0097ADBA /* TypeMenuFilterView.swift */; };
 		B9CA793B2A7F8547005A2C9E /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA793A2A7F8547005A2C9E /* PokedexApp.swift */; };
 		B9CA793F2A7F8549005A2C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CA793E2A7F8549005A2C9E /* Assets.xcassets */; };
 		B9CA79422A7F8549005A2C9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CA79412A7F8549005A2C9E /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		B9366A192A7FE5730097ADBA /* PokemonStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonStatsView.swift; sourceTree = "<group>"; };
+		B9366A1B2A80CD8D0097ADBA /* TypeMenuFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeMenuFilterView.swift; sourceTree = "<group>"; };
 		B9CA79372A7F8547005A2C9E /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CA793A2A7F8547005A2C9E /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		B9CA793E2A7F8549005A2C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				B9CA79532A7F8B20005A2C9E /* PokemonCellView.swift */,
 				B9CA79582A7F9AA3005A2C9E /* PokedexView.swift */,
 				B9366A192A7FE5730097ADBA /* PokemonStatsView.swift */,
+				B9366A1B2A80CD8D0097ADBA /* TypeMenuFilterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				B9366A1A2A7FE5730097ADBA /* PokemonStatsView.swift in Sources */,
 				B9CA795B2A7FB83A005A2C9E /* Pokemon.swift in Sources */,
+				B9366A1C2A80CD8D0097ADBA /* TypeMenuFilterView.swift in Sources */,
 				B9CA793B2A7F8547005A2C9E /* PokedexApp.swift in Sources */,
 				B9CA79592A7F9AA3005A2C9E /* PokedexView.swift in Sources */,
 				B9CA79542A7F8B20005A2C9E /* PokemonCellView.swift in Sources */,

@@ -74,6 +74,47 @@ func detectColor(pokemonType: String) -> Color {
     }
 }
 
+func generateIcon(type :String) -> String {
+    switch type {
+    case "poison":
+        return "drop.triangle"
+    case "fire":
+        return "flame"
+    case "electric":
+        return "bolt"
+    case "water":
+        return "circle.bottomthird.split"
+    case "flying":
+        return "wind"
+    case "ghost":
+        return "arkit"
+    case "dragon":
+        return "timelapse"
+    case "psychic":
+        return "eye"
+    case "ground":
+        return "circle.grid.hex"
+    case "fighting":
+        return "hand.raised"
+    case "ice":
+        return "snow"
+    case "steel":
+        return "gear"
+    case "fairy":
+        return "moon"
+    case "normal":
+        return "staroflife.fill"
+    case "bug":
+        return "ant"
+    case "grass":
+        return "leaf.arrow.circlepath"
+    case "rock":
+        return "cube.fill"
+    default:
+        return ""
+    }
+}
+
 func detectPokedexId(pokemonId: Int) -> String {
     var newId: String = ""
     
