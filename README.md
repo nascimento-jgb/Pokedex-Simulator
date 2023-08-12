@@ -28,6 +28,10 @@ A side project to practice using MVVM and Network Layers within SwiftUI.
 
 ![Group 1](https://github.com/nascimento-jgb/Pokedex-Simulator/assets/97626192/3a63b034-42fe-4f2c-b62f-b31154f9e716)
 
-## Type selected and Pokemons status
+## Type selected and Pokemon status
+
+![Group 1](https://github.com/nascimento-jgb/Pokedex-Simulator/assets/97626192/1662ba35-bd60-477b-a1a8-e33d76b29407)
+
+
 
  
