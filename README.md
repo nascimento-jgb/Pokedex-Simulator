@@ -1,4 +1,4 @@
-# Pokedex-Simulator
+# Pokedex Simulator
 A side project to practice using MVVM and Network Layers within SwiftUI.
 
 ## Key Learnings:
