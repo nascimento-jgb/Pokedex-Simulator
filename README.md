@@ -24,13 +24,17 @@ A side project to practice using MVVM and Network Layers within SwiftUI.
   Then build and run the project inside the Xcode environment to visualize the simulator.
   <br></br>
 
- ## Main view and animated button to select type
+## Main view and animated button to select type
 
 ![Group 1](https://github.com/nascimento-jgb/Pokedex-Simulator/assets/97626192/3a63b034-42fe-4f2c-b62f-b31154f9e716)
 
 ## Type selected and Pokemon status
 
 ![Group 1](https://github.com/nascimento-jgb/Pokedex-Simulator/assets/97626192/1662ba35-bd60-477b-a1a8-e33d76b29407)
+
+## Name filter and numerical ordering
+
+![Group 1](https://github.com/nascimento-jgb/Pokedex-Simulator/assets/97626192/3a36957b-e0ee-43ec-96fc-c10a4a27601d)
 
 
 
