@@ -8,6 +8,7 @@ A side project to practice using MVVM and Network Layers within SwiftUI.
 - Use of animations
 - Multiple ways of filtering
 - Fetch data from a third-party API
+- KingFisher dependency use (faster loading of images)
 
 ## Technologies
 
